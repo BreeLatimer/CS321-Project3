@@ -5,4 +5,7 @@
  * of 500 numbers to search. This class acts as it's own program because it has it's own main method.
  */
 public class TwinPrimeGenerator {
+    public static void main(String[] args){
+
+    }
 }
