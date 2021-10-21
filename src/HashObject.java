@@ -5,10 +5,11 @@
  * This is the HashObject class. This stores an object in a hash map.
  */
 
-public class HashObject<T> {
+public class
+HashObject<T> {
     private int duplicateCount; //Number of duplicate objects
     private int probeCount; //Number of probes to get to this object
-    private int key; //key. Get's assigned by hasCode() function.
+    private int key; //key. Gets assigned by hashCode() function.
     private T object; //The object that will be stored in the hashTable.
 
     //HashObject constructor
